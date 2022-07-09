@@ -9,7 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    div.
     <header>
         <div class="icon">
             <svg class="google-icon" style="width: 25px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><defs><path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"/><path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"/><path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"/><path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"/></svg>  
@@ -17,14 +16,15 @@
         </div>
         <div class="search-bar">
             <label for="search">
-                <i class="magnify fa-solid fa-magnifying-glass"></i>
+                <i   class="magnify fa-solid fa-magnifying-glass" style="margin-right: 0px;"></i>
             </label>
             <input class="search-box" type="search" placeholder="Search settings" id="search">
         </div>
     </header>
 
     <div class="container">
-        <a href="#" class="active"><i class="fa-solid fa-user"></i>You and Google</a>
+    <div class="menu">
+        <a href="#"><i class="fa-solid fa-user"></i>You and Google</a>
         <a href="#">
             <i class="fa-solid fa-clipboard-list"></i>
             Autofill
@@ -46,13 +46,41 @@
         <a href="#">
             <i class="fa-solid fa-power-off"></i>
             On startup</a>      
+            <a href="#" class="active">
+                <i class="fa-brands fa-chrome"></i>
+                About chrome
+            </a>
     </div>
-    <hr>
-    <footer>
-        <a href="#">
-            <i class="fa-brands fa-chrome"></i>
-            About chrome
-        </a>
-    </footer>
+    <div class="detail">
+        <h4>About Chrome</h4>
+        <div class="card-into">
+            
+            <div>
+            <p>Google Chrome</p>
+            </div>
+            
+            <div>
+            <p>Chrome is up to date</p>
+            <p>Version 103.0.5060.114 (Official Build) (64-bit)</p>
+            </div>
+            
+            <div>
+                <p>Get help with Chrome</p>
+            </div>
+
+            <div>
+                Report an issue
+            </div>
+
+        </div>
+
+        <div class="card-info">
+            <p>Google Chrome</p>
+            <p>Copyright 2022 Google LLC.All rights reserved.</p>
+            <p>Chrome is made possible by the <a href="#">Chromium</a>open source project and other <a href="3">open source software.</a></p>
+            <p><a href="#">Terms of Services</a></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
